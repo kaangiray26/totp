@@ -14,3 +14,4 @@ Share files via P2P using TOTP verification
 ### Tools
 * [PeerJS](https://peerjs.com/)
 * [otplib](https://www.npmjs.com/package/otplib)
+* [otpauth](https://github.com/hectorm/otpauth)
