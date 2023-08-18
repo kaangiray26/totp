@@ -10,3 +10,7 @@ Share files via P2P using TOTP verification
 6. Now, the recipient must use the 6 digit TOTP code as the remote peer id to establish the broker connection
 7. Once the broker connection is established, quickly switch to a secure connection based on another crypt. random uuid
 8. When the actual connection is established transfer the content
+
+### Tools
+* [PeerJS](https://peerjs.com/)
+* [otplib](https://www.npmjs.com/package/otplib)
