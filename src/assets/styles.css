@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: var(--bs-light);
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.clickable:hover,
+.clickable:active {
+    transition: .1s;
+    opacity: .8;
+}
