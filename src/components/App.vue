@@ -20,11 +20,9 @@
         <div class="d-flex flex-column">
             <h1 class="fw-bold mb-3">Algorithm</h1>
             <p>This is a custom implementation that generates time based one-time passwords that change every 30 seconds.
-            </p>
-            <p>The secret is combined with the current time and hashed with SHA-256. Then, the hash is converted to a 32-bit
-                integer and the last 6 digits are taken as the code.
-            </p>
-            <p>The code displayed above changes every 30 seconds and can be copied by clicking on it.</p>
+                The secret is combined with the current time and hashed with SHA-256. Then, the hash is converted to a
+                32-bit integer and the last 6 digits are taken as the code. The code displayed above changes every 30
+                seconds and can be copied by clicking on it.</p>
             <p>Here's the algorithm in JavaScript:</p>
             <pre class="bg-dark text-light p-3 rounded">
 async function generate_totp(secret){    
